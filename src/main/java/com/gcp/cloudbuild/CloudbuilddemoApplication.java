@@ -17,7 +17,7 @@ public class CloudbuilddemoApplication {
 	  class HelloworldController {
 	    @GetMapping("/")
 	    String hello() {	
-	      return "welcome to learn cloud run build and deploy " + name + "!";
+	      return "Message from updated sp application, still welcoming you " + name + "!";
 	    }
 	  }
 
