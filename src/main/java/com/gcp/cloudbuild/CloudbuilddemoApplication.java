@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class CloudbuilddemoApplication {
 	
-	 @Value("${NAME:Nithwik}")
+	 @Value("${NAME:Srini}")
 	  String name;
 
 	  @RestController
 	  class HelloworldController {
 	    @GetMapping("/")
 	    String hello() {	
-	      return "Message from updated sp application, still welcoming you " + name + "!";
+	      return "Welcome " + name + "!";
 	    }
 	  }
 
